@@ -3,19 +3,19 @@ const mysql = require('mysql2');
 const is_heroku = process.env.IS_HEROKU || false;
 
 const dbConfigHeroku = {
-	host: "us-cdbr-east-03.cleardb.com",
-	user: "b1ab7fb2ee03bc",
-	password: "2a484a2d",
-	database: "heroku_3d208ad4bd6f421",
+	host: "eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "dsd5n3dc92jki58d",
+	password: "y3fnkt3m7pe1iv2o",
+	database: "gbkh5ozj9a8qgypl",
 	multipleStatements: false,
 	namedPlaceholders: true
 };
 
 const dbConfigLocal = {
 	host: "localhost",
-	user: "root",
-	password: "Password",
-	database: "lab_example",
+	user: "adbmin",
+	password: "AbI35RicV5LSHm1A",
+	database: "week-10-lab",
 	multipleStatements: false,
 	namedPlaceholders: true
 };
